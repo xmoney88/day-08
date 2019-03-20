@@ -1,3 +1,6 @@
+import os
+import sys
+sys.path.append(os.getcwd())
 from base.get_driver import GetDriver
 from page.page_biannianaolai import PageBaiNianAoLai
 
